@@ -8,7 +8,7 @@ interface ThemeIcons {
 	light: React.ReactElement
 }
 
-import { useState, useEffect, ReactElement } from 'react'
+import { useState, useEffect} from 'react'
 import { Button } from '@/components/ui/button'
 import {
 	DropdownMenu,
