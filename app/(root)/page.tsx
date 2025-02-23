@@ -11,6 +11,6 @@ export const metadata: Metadata = {
 export default function Home() {
 	console.log("dupa jasiu")
 	return <>
-	  <ProductList data={sampleData.products} title="Newest Arrivals"/>
+	  <ProductList data={sampleData.products} title="Newest Arrivals" limit={4}/>
 	</>
 }
