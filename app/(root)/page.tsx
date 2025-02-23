@@ -1,3 +1,6 @@
+import ProductList from '@/components/shared/product/product-list'
+import sampleData from '@/db/sample-data'
+
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -6,6 +9,8 @@ export const metadata: Metadata = {
 
 
 export default function Home() {
-	
-	return <div>Home Page</div>
+	console.log("dupa jasiu")
+	return <>
+	  <ProductList data={sampleData.products} title="Newest Arrivals"/>
+	</>
 }
